@@ -1,0 +1,29 @@
+class Car:
+    def __init__(self):
+        self.brand = input('Марка: ')
+        self.producer1 = input('Назва фірми виробника: ')
+        self.producer2 = input('Рік заснування фірми виробника: ')
+        self.producer3 = input('Номер телефону фірми виробника: ')
+        self.producer4 = input('Обсяги виробництва фірми виробника: ')
+        self.seller1 = input('Назва фірми продавця: ')
+        self.seller2 = input('Рік заснування фірми продавця: ')
+        self.seller3 = input('Номер телефону фірми продавця: ')
+        self.seller4 = input('Обсяги продажу фірми продавця: ')
+        self.owner1 = input('Прізвище та ініціали власника: ')
+        self.owner2 = input('Ідентифікаційний код власника: ')
+        self.owner3 = input('Який це власник за рахунком?')
+        self.color = input('Колір машини: ')
+        self.numner = input('Номер машини: ')
+        self.date_of_issue1 = input('Введіть рік випуску машини: ')
+        self.date_of_issue2 = input('Введіть місяць випуску машини: ')
+        self.date_of_issue3 = input('Введіть день випуску машини: ')
+    def Age(self):
+        age = 2022 - self.date_of_issue1
+        return age_of_the_car
+    def Owner(self):
+        if self.change_of_owner > 1:
+            print('Це {0} власник'.format(self.change_of_owner))
+        else:
+            print('Це перший власник машини')
+A = Car()
+print(A.Age, A.Owner)
