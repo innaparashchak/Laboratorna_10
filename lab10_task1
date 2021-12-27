@@ -1,0 +1,18 @@
+class Numeric:
+    def __init__(self, n, number, suma):
+        self.n = int(n)
+        self.number = number
+        self.suma = suma
+    def Create_numeric(self):
+        n = int(input())
+        return n
+    def Len(self, number):
+        number = len(n)
+        return number
+    def Suma(self, suma):
+        suma = sum(n)
+        return suma
+num = Numeric()
+print(num.Create_numeric)
+print(num.Len)
+print(num.Suma)
